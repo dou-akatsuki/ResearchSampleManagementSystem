@@ -27,9 +27,9 @@ function createDummyDatastore() {
     db.insert({ _id: { nodeID: "node2", sampleID: "1" }, attributes: ["12/3", "Qiagen", "80", "10", "Second elution failed, so only 80mL"] });
 }
 
-// return all nodes as an array of documents
-function getAllNodes(fn) {
-    db.find({ parentID: { $exists: true } }, { parentID: 1, processName: 1 }, returnDocs);
+// return all non-root nodes as an array of documents
+function getAllNonRootNodes(fn) {
+    db.find({ parentID: { $exists: true }, nodeID: { $ne: "rootNode" } }, { parentID: 1, processName: 1 }, returnDocs);
 }
 
 // return all samples with nodeID
