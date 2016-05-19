@@ -1,0 +1,5 @@
+{
+  "name": "modules example",
+//  "main":"index.html"
+"main":"ThirdParty.html"
+}

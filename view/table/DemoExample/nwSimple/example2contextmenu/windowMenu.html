@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <title>Window Menu Example</title>
+
+    <script>
+
+        var nw = require('nw.gui');
+
+        // Window menu
+        var windowMenu = new nw.Menu({
+            type: 'menubar'
+        });
+
+        // Help menu
+        var helpMenu = new nw.Menu();
+
+        // Add to window menu
+        windowMenu.append(new nw.MenuItem({
+            label: 'Help',
+            submenu: helpMenu
+        }));
+
+        // About sub-entry
+        helpMenu.append(new nw.MenuItem({
+            label: 'about',
+            click: function(){
+                alert('I made this!');
+            }
+        }));
+
+        // Assign to window
+        nw.Window.get().menu = windowMenu;
+
+    </script>
+
+</head>
+<body>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, ab!</p>
+<p>Quos nemo dolorem iste nobis repudiandae neque perferendis necessitatibus labore!</p>
+<p>Fugit, fuga alias iure dolore ab quis error nulla delectus.</p>
+<p>Neque, eos dignissimos maxime illo obcaecati debitis nemo pariatur quos!</p>
+<p>Aspernatur, quae sit tempore mollitia hic perspiciatis dolore. Ratione, ipsa?</p>
+<p>Aliquam, quidem sint veniam iste architecto deleniti sed consequuntur vel.</p>
+
+</body>
+</html>

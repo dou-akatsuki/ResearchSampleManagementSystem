@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modules</title>
+    <script>
+
+
+        // System details (CPU / Memory, etc)
+        var os = require('os');
+
+        // File operations
+        var fs = require('fs');
+
+        // String which we'll write to file
+        var content = '';
+
+        // Platform Info
+        content += '[Platform]' + os.EOL;
+        content += 'OS Type        : ' + os.platform() + os.EOL; // linux, darwin, win32, sunos, freebsd
+        content += 'OS Version     : ' + os.release()  + os.EOL;
+        content += 'OS Architecture: ' + os.arch()     + os.EOL;
+        content += os.EOL;
+
+        // Memory info
+        content += '[Memory]' + os.EOL;
+        content += 'Total (Bytes)  : ' + os.totalmem() + os.EOL;
+        content += 'Free  (Bytes)  : ' + os.freemem()  + os.EOL;
+        content += 'Free  (%)      : ' + (os.freemem() / os.totalmem() * 100).toFixed(2)  + os.EOL;
+        content += os.EOL;
+
+        // CPU Info
+        content += '[CPUs]' + os.EOL;
+        content += 'No. of Cores   : ' + os.cpus().length   + os.EOL;
+        content += 'Core Type      : ' + os.cpus()[0].model + os.EOL;
+
+       // document.write(content);
+
+        //Write to file
+        fs.writeFile('./sysinfo.txt',content,function(err){
+            if(err)
+            alert('Error writing file');
+            else
+            {
+                fs.readFile('./sysinfo.txt',function(err,fileContent){
+                    if(err)
+                    document.write('Error reading file');
+                    else
+                    document.write(fileContent.toString().replace(new RegExp(os.EOL,'g'),'<br>'))
+                })
+            }
+        });
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

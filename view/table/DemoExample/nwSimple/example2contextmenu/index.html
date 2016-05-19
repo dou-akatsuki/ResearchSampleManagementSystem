@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ContextMenuExample</title>
+    <script>
+        var nw = require('nw.gui');
+
+        // Tracking which element was clicked on
+        var whichNode;
+
+        // Context menu for paragraphs
+        var paraMenu = new nw.Menu();
+
+        // Context sub-menu for paragraph styles
+        var paraStyleMenu = new nw.Menu();
+
+        // [entry] Remove a paragraph
+        paraMenu.append(new nw.MenuItem({
+            label: 'Remove this paragraph',
+            click: function(){
+                whichNode.parentNode.removeChild(whichNode);
+            }
+        }));
+
+        //just for display
+        paraMenu.append(new nw.MenuItem({
+            label: 'Display',
+            click: function(){
+
+            }
+        }));
+        // Separator
+        paraMenu.append(new nw.MenuItem({
+            type: 'separator'
+        }));
+
+        // [entry] sub-menu
+        paraMenu.append(new nw.MenuItem({
+            label: 'Change Style',
+            submenu: paraStyleMenu
+        }));
+
+        // [entry] Toggle bold
+        paraStyleMenu.append(new nw.MenuItem({
+            label: 'Toggle bold',
+            click: function(){
+                if (whichNode.style.fontWeight != 'bold')
+                    whichNode.style.fontWeight = 'bold';
+                else
+                    whichNode.style.fontWeight = 'normal';
+            }
+        }));
+
+        // [entry] Toggle red
+        paraStyleMenu.append(new nw.MenuItem({
+            label: 'Toggle red',
+            click: function(){
+                if (whichNode.style.color != 'red')
+                    whichNode.style.color = 'red';
+                else
+                    whichNode.style.color = 'inherit';
+            }
+        }));
+
+
+    </script>
+</head>
+<body style="background-color: rgb(235,235,235);font-size: x-large;">
+
+<ul>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, id!</li>
+    <li>Earum, perspiciatis est animi ab deserunt rerum eveniet eos doloremque.</li>
+    <li>Itaque, voluptas consequatur quisquam natus vitae nihil ea praesentium culpa.</li>
+    <li>Sapiente, eius eligendi voluptatum repellat assumenda enim delectus natus laboriosam!</li>
+    <li>Corporis, non fugit nihil neque dolor sint accusamus incidunt perspiciatis!</li>
+    <li>Nesciunt, mollitia quos ratione quis in vitae officia recusandae voluptatibus.</li>
+</ul>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, sed.</p>
+<p>Officia qui odit sed explicabo alias cumque consequuntur ullam optio?</p>
+<p>Culpa voluptates ea voluptas suscipit hic minus veniam laudantium nostrum!</p>
+<p>Commodi autem nulla blanditiis dolorem ipsa laboriosam nam neque officiis?</p>
+<p>Asperiores, maiores incidunt aliquam nostrum tempore modi nihil eius nam.</p>
+<p>Voluptate, error libero autem ipsam tempore ea non eaque aliquam.</p>
+<script>
+
+    document.body.addEventListener('contextmenu', function(e){
+
+        e.preventDefault();
+
+        if (e.target.localName == 'p')
+        {
+            whichNode = e.srcElement;
+            paraMenu.popup(e.x, e.y);
+        }
+
+    });
+
+</script>
+</body>
+</html>

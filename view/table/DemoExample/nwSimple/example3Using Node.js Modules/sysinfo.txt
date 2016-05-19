@@ -1,0 +1,13 @@
+[Platform]
+OS Type        : darwin
+OS Version     : 15.5.0
+OS Architecture: x64
+
+[Memory]
+Total (Bytes)  : 8589934592
+Free  (Bytes)  : 1358036992
+Free  (%)      : 15.81
+
+[CPUs]
+No. of Cores   : 4
+Core Type      : Intel(R) Core(TM) i7-5650U CPU @ 2.20GHz
