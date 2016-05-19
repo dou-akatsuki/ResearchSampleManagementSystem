@@ -32,6 +32,12 @@ function getAllNonRootNodes(fn) {
     db.find({ parentID: { $exists: true }, nodeID: { $ne: "rootNode" } }, { parentID: 1, processName: 1 }, returnDocs);
 }
 
+function getAllNonRootNodes() {
+    var nodes = db.find({ parentID: { $exists: true }, nodeID: { $ne: "rootNode" } }, { parentID: 1, processName: 1 });
+    console.log(nodes)
+    return(nodes)
+}
+
 // return all samples with nodeID
 function getNodeSamples(nodeID, fn) {
     db.find({ "_id.nodeID": nodeID }, returnDocs);
