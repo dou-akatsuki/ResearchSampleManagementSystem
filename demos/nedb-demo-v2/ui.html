@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<style>
+	table, td {
+		border: 1px solid black;
+	}
+	</style>
+    <body>
+        <table id="nodesTable">
+			<tr>
+				<td>NodeID</td>
+				<td>ParentID</td>
+				<td>ProcessName</td>
+			</tr>
+        </table><br>
+
+        <table id="samplesTable">
+            <tr>
+				<td>SampleID</td>
+			</tr>
+	    </table><br><br>
+
+        <i><small>---------------- FILE ----------------</small></i><br><br>
+        Filename:<br>
+        <input type="text" id="filenameField"><br>
+        <input type="button" id="newProjectButton" value="New Project"/><br><br><br>
+
+        <i><small>---------------- NAVIGATION ----------------</small></i><br><br>
+        Node ID:<br>
+        <input type="text" id="nodeIDField1"><br>
+        <input type="button" id="showSamplesButton" value="Show Samples"/><br><br><br>
+
+		<i><small>---------------- ROOT SAMPLE TABLE OPERATIONS ----------------</small></i><br><br>
+		Attribute name:<br>
+		<input type="text" id="attributeNameField1"><br>
+		<input type="button" id="createAttributeNameButton" value="Create Attribute Name"/>
+		<input type="button" id="deleteAttributeButton" value="Delete Attribute"/><br><br>
+
+		Sample ID:<br>
+		<input type="text" id="sampleIDField1"><br>
+		<input type="button" id="insertSampleIDButton" value="Insert Sample ID"/>
+		<input type="button" id="removeSampleButton" value="Remove Sample"/><br><br>
+
+		Sample ID:<br>
+		<input type="text" id="sampleIDField2"><br>
+		Attribute name:<br>
+		<input type="text" id="attributeNameField2"><br>
+		Data:<br>
+		<input type="text" id="dataField"><br>
+		<input type="button" id="insertDataButton" value="Insert data"/><br><br><br>
+
+        <i><small>---------------- PROCESS (ONE SAMPLE AND ONE ATTRIBUTE FOR NOW) ----------------</small></i><br><br>
+        Node ID:<br>
+        <input type="text" id="nodeIDField2"><br>
+		Sample ID:<br>
+		<input type="text" id="sampleIDField3"><br>
+		Process name:<br>
+		<input type="text" id="processNameField"><br>
+		Process attribute name:<br>
+		<input type="text" id="processAttributeNameField"><br>
+		<input type="button" id="processButton" value="Process"/><br><br>
+
+		<i><small>---------------- PROCESSED SAMPLE TABLE OPERATIONS ----------------</small></i><br><br>
+		Node ID:<br>
+		<input type="text" id="nodeIDField2"><br>
+		Sample ID:<br>
+		<input type="text" id="sampleIDField2"><br>
+		Attribute name:<br>
+		<input type="text" id="attributeNameField2"><br>
+		Data:<br>
+		<input type="text" id="dataField"><br>
+		<input type="button" id="insertDataButton" value="Insert data"/><br><br><br>
+
+		<i><small>---------------- NODE OPERATIONS ----------------</small></i><br><br>
+		Node ID:<br>
+		<input type="text" id="nodeIDField3"><br>
+		<input type="button" id="deleteNodeButton" value="Delete node"/><br><br>
+
+		<script src="jquery-2.2.3.js"></script>
+        <script src="nedb.min.js"></script>
+        <script src="dal.js"></script>
+    </body>
+</html>
