@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f91a5259-14c9-4175-b8c1-cd9832827144" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/MacOS/nwjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Resources/app.icns" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Resources/document.icns" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Helpers/crashpad_handler" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Libraries/exif.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/ActionBoxMenuItem.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/AppMenu.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/AvatarMenuItem.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/BookmarkAllTabs.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/BookmarkBar.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/BookmarkBarFolderWindow.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/BookmarkBubble.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/BookmarkEditor.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/BookmarkNameFolder.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/CollectedCookies.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/ContentBlockedCookies.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/ContentBlockedDownloads.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/ContentBlockedGeolocation.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/ContentBlockedMIDISysEx.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/ContentBlockedMedia.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/ContentBlockedMixedScript.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/ContentBlockedPlugins.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/ContentBlockedPopups.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/ContentBlockedSimple.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/ContentProtocolHandlers.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/CookieDetailsView.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/DevicePermissionsPrompt.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/DownloadItem.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/DownloadShelf.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/EditSearchEngine.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/ExclusiveAccessBubble.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/ExtensionInstallPrompt.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/ExtensionInstallPromptBundle.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/ExtensionInstallPromptNoWarnings.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/ExtensionInstallPromptWebstoreData.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/ExtensionInstalledBubble.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/ExtensionInstalledBubbleBundle.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/FindBar.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/FirstRunBubble.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/FirstRunDialog.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/GlobalErrorBubble.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/HttpAuthLoginSheet.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/HungRendererDialog.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/ImportProgressDialog.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/InfoBar.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/MainMenu.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/OneClickSigninBubble.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/OneClickSigninDialog.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/Panel.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/SaveAccessoryView.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/TaskManager.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/Toolbar.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/WrenchMenu.nib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/app_mode_loader.app/Contents/MacOS/app_mode_loader" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/en.lproj/locale.pak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/find_next_Template.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/find_prev_Template.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/icudtl.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/menu_overflow_down.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/menu_overflow_up.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/natives_blob.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/nw_100_percent.pak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/nw_200_percent.pak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/nw_material_100_percent.pak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/nw_material_200_percent.pak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/product_logo_32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/resources.pak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/snapshot_blob.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/libffmpeg.dylib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/libnode.dylib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/nwjs Framework" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Helper.app/Contents/MacOS/nwjs Helper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/tabulator.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/PkgInfo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Resources/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Resources/io.nwjs.nw.manifest/Contents/Resources/en.lproj/Localizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Resources/io.nwjs.nw.manifest/Contents/Resources/io.nwjs.nw.manifest" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Resources/scripting.sdef" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/app_mode_loader.app/Contents/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/app_mode_loader.app/Contents/PkgInfo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Framework.framework/Resources/install.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Helper.app/Contents/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/nwjs.app/Contents/Versions/50.0.2661.102/nwjs Helper.app/Contents/PkgInfo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-2.1.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui.min.js" />
+    </list>
+    <ignored path="tabulator.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="tabulator" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/example/package.json" />
+        <option value="$PROJECT_DIR$/example/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="433" />
+    <option name="y" value="1103" />
+    <option name="width" value="1398" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabulator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabulator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabulator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabulator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabulator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../drawTable" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="examples.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tabulator/examples.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tabulator/example/index.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.examples.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.examples.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f91a5259-14c9-4175-b8c1-cd9832827144" name="Default" comment="" />
+      <created>1463395479138</created>
+      <option name="number" value="Default" />
+      <updated>1463395479138</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="433" y="1103" width="1398" height="877" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14814815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/example/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery-ui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1463395831000" expanded="true" signature="17905:17976" placeholder="..." />
+            <marker date="1463395831000" expanded="true" signature="17990:18014" placeholder="..." />
+            <marker date="1463395831000" expanded="true" signature="58751:58795" placeholder="..." />
+            <marker date="1463395831000" expanded="true" signature="108307:108324" placeholder="..." />
+            <marker date="1463395831000" expanded="true" signature="117691:117707" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery-2.1.4.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19094767">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/icons.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16170213">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8822695">
+          <caret line="124" column="12" selection-start-line="124" selection-start-column="12" selection-end-line="124" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

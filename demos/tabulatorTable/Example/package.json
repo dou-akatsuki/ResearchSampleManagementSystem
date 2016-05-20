@@ -1,0 +1,11 @@
+{
+  "main": "index.html",
+  "name": "example1",
+  "window":
+  {
+    "frame"  : false,
+    "toolbar": true,
+    "height":800,
+    "width":600
+  }
+}

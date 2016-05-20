@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel='stylesheet' href='reset.css'>
+    <link rel='stylesheet' href='style.css'>
+    <script type="text/javascript" src="../jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="../jquery-ui.min.js"></script>
+    <link href="../tabulator.css" rel="stylesheet">
+    <script type="text/javascript" src="../tabulator.js"></script>
+
+    <style>
+        div{
+            width: fit-content;
+            /* To adjust the height as well */
+            height: fit-content;
+        }
+
+    </style>
+    <script>
+
+        var nw = require('nw.gui');
+        var win = nw.Window.get();
+        win.isMaximized = false;
+
+    </script>
+</head>
+<body>
+<header>
+    <ul>
+        <li><a href='#' title='Minimize' id='windowControlMinimize'></a></li>
+         <li><a href='#' title='Maximize' id='windowControlMaximize'></a></li>
+         <li><a href='#' title='Close'    id='windowControlClose'   ></a></li>
+    </ul>
+</header>
+
+
+
+<script>
+
+    // Min
+    document.getElementById('windowControlMinimize').onclick = function()
+    {
+        win.minimize();
+    };
+
+    // Close
+    document.getElementById('windowControlClose').onclick = function()
+    {
+        win.close();
+    };
+
+    // Max
+    document.getElementById('windowControlMaximize').onclick = function()
+    {
+        if (win.isMaximized)
+            win.unmaximize();
+        else
+            win.maximize();
+    };
+
+    win.on('maximize', function(){
+        win.isMaximized = true;
+    });
+
+    win.on('unmaximize', function(){
+        win.isMaximized = false;
+    });
+
+
+</script>
+
+<p>Hello</p>
+
+<div id="example-table",style="margin-top:100px; margin-left:100px;"></div>
+<script>
+    //$("#example-table").tabulator();
+    $("#example-table").tabulator({
+        height:"75px", // set height of table (optional)
+        tooltipsHeader:true,
+//        colMinWidth:40,
+        //wideth:300,
+        colResizable:true,
+        fitColumns:true, //fit columns to width of table (optional)
+        columns:[ //Define Table COlumns
+            {title:"Name", field:"name",editable:true,wideth:150,sorter:"string" },
+            {title:"Age", field:"age", editable:true,sorter:"number",align:"left"},
+            {title:"Favourite Color",editable:true, field:"col",sorter:"string", align:"left",sortable:false},
+            {title:"Date Of Birth", editable:true,field:"dob", sorter:"date", align:"center"},
+        ],
+        rowEdit:function(id, data, row){
+            //id - the id of the row
+            //data - the data for the row
+            //row - the DOM element of the row
+            $(window).resize(function(){
+                $("#example-table").tabulator("redraw");
+            });
+
+            var data = $("#example-table").tabulator("getData");
+            tabledata = data;
+
+            //clear the table
+            $("#example-table").tabulator("clear");
+
+            $("#example-table").tabulator("setData", tabledata);
+
+            alert("Data is "+tabledata.toSource());
+        }
+    });
+
+    //define some sample data
+    var tabledata = [
+        {index:1, name:"Oli Bob", age:"12", col:"red", dob:"12/05/1992"},
+        {index:2, name:"Mary May", age:"1", col:"blue", dob:"14/05/1982"}
+
+    ];
+
+
+    //load sample data into the table, setData is to refresh
+    //$("#example-table").tabulator("setData");
+    $("#example-table").tabulator("setData", tabledata);
+</script>
+<p>Hello</p>
+</body>
+</html>
