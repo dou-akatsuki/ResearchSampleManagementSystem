@@ -10,8 +10,8 @@ Demos <br />
   JSONTree <br />
     - shows tree from hard-coded data <br />
     - last demo received from Alex (7/05/2016) <br />
+  NW.js example <br />
+    - example1 basic framework demo
+    - example2 context menu demo
+    - example3 thridparty node.js api, write file demo
 
-NW demo, inside View file
-
-
-tabulator table demo, please see: https://github.com/vonschbo/tabulator
